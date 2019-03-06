@@ -59,6 +59,10 @@ def dennis_ritchies_language
         }
      }
 programmer_hash[:dennis_ritchie][:languages][0]
+<<<<<<< HEAD
+=======
+binding.pry
+>>>>>>> 68dfd2ecbe20679f21eed6fcdd552a78c28ecc1e
 end
 
 def adding_matz
@@ -88,6 +92,13 @@ def adding_matz
   programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
   programmer_hash
 
+<<<<<<< HEAD
+=======
+programmer_hash[:yukihiro_matsumoto] = :known_for, :languages
+programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
+programmer_hash[:languages] = ["LISP", "C"]
+programmer_hash
+>>>>>>> 68dfd2ecbe20679f21eed6fcdd552a78c28ecc1e
 end
 
 def changing_alan
@@ -109,8 +120,13 @@ def changing_alan
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
      
+<<<<<<< HEAD
 programmer_hash[:alan_kay][:known_for] = "GUI"   
 programmer_hash     
+=======
+programmer_hash[:known_for] = "GUI"   
+     
+>>>>>>> 68dfd2ecbe20679f21eed6fcdd552a78c28ecc1e
 end
 
 def adding_to_dennis
